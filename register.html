@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Ícones Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- CSS do formulário -->
+    <link rel="stylesheet" href="register.css" />
+
+    <title>Registre-se</title>
+</head>
+<body>
+    <main class="conteiner">
+        <form>
+            <h1>REGISTRE-SE</h1>
+
+            <div class="input-box">
+                <input type="text" name="nome" placeholder="Seu nome" required>
+                <i class="bx bxs-user"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="tel" name="telefone" placeholder="(00) 00000-0000" required>
+                <i class="bx bxs-phone"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <i class="bx bxs-envelope"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="input-box">
+                <input type="password" name="confirmar_senha" placeholder="Confirmar sua senha" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
+
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox" /> Lembrar minha senha.
+                </label>
+            </div>
+
+            <button type="submit" class="login">Entrar</button>
+
+            <div class="login-link">
+                <p>Já é vinculado? <a href="login.html">Acesse a sua conta.</a></p>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
